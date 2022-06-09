@@ -1,7 +1,7 @@
 alphabet = [chr(97+i) for i in range(26)]
 print(alphabet)
 txt_file = ''
-def count(txt_file):
+def cipher_analyse(txt_file):
     nb_letter = 0
     dict = {}
     txt_file = txt_file.lower()
